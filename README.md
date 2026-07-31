@@ -5,6 +5,8 @@
 ![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-blue)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-Data%20Visualization-orange)
 ![Seaborn](https://img.shields.io/badge/Seaborn-Statistical%20Visualization-4C72B0)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-Machine%20Learning-F7931E)
+![Joblib](https://img.shields.io/badge/Joblib-Model%20Serialization-6A5ACD)
 ![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power%20BI-Business%20Intelligence-F2C811?logo=powerbi&logoColor=black)
 ![DAX](https://img.shields.io/badge/DAX-Measures-blueviolet)
@@ -28,20 +30,31 @@
 
 # Internship Overview
 
-This repository contains projects completed during the **InterneePK Data Analyst Internship**.
+This repository contains all projects completed during the **InterneePK Data Analyst Internship**.
 
-The internship focuses on practical data analytics skills including data preprocessing, exploratory data analysis (EDA), data visualization, business intelligence, and interactive dashboard development using Python and Microsoft Power BI.
+The internship focuses on developing practical industry-level skills in:
 
-Each project demonstrates a complete analytics workflow from raw data to meaningful business insights through professional documentation and interactive dashboards.
+- Data Cleaning and Preprocessing
+- Exploratory Data Analysis (EDA)
+- Data Visualization
+- Business Intelligence
+- Dashboard Development
+- Machine Learning
+- Predictive Analytics
+
+Each project demonstrates a complete end-to-end analytics workflow, from raw data processing to meaningful business insights using **Python**, **Microsoft Power BI**, and **Scikit-learn**.
+
+The repository serves as a professional portfolio showcasing practical data analytics and machine learning projects completed throughout the internship.
 
 ---
 
 # Repository Structure
 
 ```text
-InterneePK-Data-Analyst-Internship/
+INTERNEEPK-DATA-ANALYST-INTERNSHIP/
 │
 ├── 01-Internship-Program-Analysis/
+├── 02-Intern-Performance-Prediction/
 │
 ├── README.md
 └── .gitignore
@@ -53,7 +66,60 @@ InterneePK-Data-Analyst-Internship/
 
 | No. | Project | Description | Status |
 |----:|----------|-------------|:------:|
-| 01 | Internship Program Analysis | Exploratory Data Analysis and Microsoft Power BI Dashboard for internship program data. | ✅ Completed |
+| 01 | **[Internship Program Analysis](./01-Internship-Program-Analysis/)** | Exploratory Data Analysis (EDA) and Microsoft Power BI dashboard for internship program data. | ✅ Completed |
+| 02 | **[Intern Performance Prediction](./02-Intern-Performance-Prediction/)** | Machine Learning project for predicting intern performance using classification algorithms. | ✅ Completed |
+
+---
+
+## Project 01 — Internship Program Analysis
+
+This project focuses on analyzing internship program data using **Python** and **Microsoft Power BI**.
+
+### Highlights
+
+- Data Cleaning & Preprocessing
+- Exploratory Data Analysis (EDA)
+- Statistical Data Visualization
+- Interactive Power BI Dashboard
+- KPI Development using DAX
+- Business Insight Generation
+
+### Key Outcome
+
+The project transformed raw internship data into meaningful insights through interactive dashboards and visual analytics. The analysis evaluated intern attendance, task completion, mentor interactions, feedback scores, and overall internship performance.
+
+📂 **Project Folder:**  
+**[01-Internship-Program-Analysis](./01-Internship-Program-Analysis/)**
+
+---
+
+## Project 02 — Intern Performance Prediction
+
+This project applies supervised machine learning techniques to predict intern performance using internship-related features.
+
+### Highlights
+
+- Data Cleaning & Preprocessing
+- Exploratory Data Analysis (EDA)
+- Feature Engineering
+- Feature Encoding
+- Machine Learning Model Development
+- Model Evaluation & Comparison
+- Model Serialization using Joblib
+- Prediction Pipeline
+
+### Machine Learning Models
+
+- Logistic Regression
+- Decision Tree
+- Random Forest
+
+### Key Outcome
+
+Three supervised machine learning algorithms were trained and evaluated for intern performance prediction. **Logistic Regression** achieved the highest testing accuracy of **90.41%**, demonstrating excellent predictive capability for internship analytics.
+
+📂 **Project Folder:**  
+**[02-Intern-Performance-Prediction](./02-Intern-Performance-Prediction/)**
 
 ---
 
@@ -64,8 +130,9 @@ InterneePK-Data-Analyst-Internship/
 | Programming Language | Python |
 | Data Analysis | Pandas |
 | Numerical Computing | NumPy |
-| Data Visualization | Matplotlib |
-| Statistical Visualization | Seaborn |
+| Data Visualization | Matplotlib, Seaborn |
+| Machine Learning | Scikit-learn |
+| Model Serialization | Joblib |
 | Notebook Environment | Jupyter Notebook |
 | Business Intelligence | Microsoft Power BI |
 | Dashboard Calculations | DAX |
@@ -76,19 +143,29 @@ InterneePK-Data-Analyst-Internship/
 
 # Skills Demonstrated
 
-Throughout this internship, the following skills are demonstrated:
+Throughout this internship, the following technical skills are demonstrated:
 
 - Data Cleaning
+- Data Preprocessing
 - Data Validation
 - Exploratory Data Analysis (EDA)
-- Data Visualization
+- Statistical Data Visualization
 - Business Intelligence
 - Dashboard Development
 - Dashboard Design
-- DAX
+- Feature Engineering
+- Supervised Machine Learning
+- Classification Algorithms
+- Model Evaluation
+- Model Comparison
+- Predictive Analytics
+- Model Serialization
 - Python Programming
 - Pandas
+- NumPy
+- Scikit-learn
 - Microsoft Power BI
+- DAX
 - Git & GitHub
 
 ---
@@ -98,19 +175,27 @@ Throughout this internship, the following skills are demonstrated:
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/huzaifawaheed2/InterneePK-Data-Analyst-Internship.git
+git clone https://github.com/huzaifawaheed2/INTERNEEPK-DATA-ANALYST-INTERNSHIP.git
 ```
 
 ### Navigate to the Repository
 
 ```bash
-cd InterneePK-Data-Analyst-Internship
+cd INTERNEEPK-DATA-ANALYST-INTERNSHIP
 ```
 
-### Open the Project Folder
+### Open Any Project
+
+For the Internship Program Analysis project:
 
 ```bash
 cd 01-Internship-Program-Analysis
+```
+
+For the Intern Performance Prediction project:
+
+```bash
+cd 02-Intern-Performance-Prediction
 ```
 
 ### Install the Required Dependencies
@@ -126,8 +211,12 @@ Each project contains its own:
 - Dataset
 - Jupyter Notebook
 - Visualizations
-- Power BI Dashboard
 - Project Documentation
+
+Depending on the project, additional resources may include:
+
+- Microsoft Power BI Dashboard
+- Trained Machine Learning Models
 
 ---
 
@@ -146,8 +235,8 @@ Data Analyst | Power BI Developer | QA Engineer
 
 # Acknowledgements
 
-This repository contains projects completed during the **InterneePK Data Analyst Internship**. The projects demonstrate practical applications of data analysis, exploratory data analysis, business intelligence, data visualization, and dashboard development using Python and Microsoft Power BI.
+This repository contains projects completed during the **InterneePK Data Analyst Internship**. Each project demonstrates practical applications of data preprocessing, exploratory data analysis, business intelligence, machine learning, predictive analytics, data visualization, and dashboard development using Python, Microsoft Power BI, and Scikit-learn.
 
 ---
 
-⭐ **If you found this project useful, consider giving this repository a star!**
+⭐ **If you found this repository useful, consider giving it a star!**
