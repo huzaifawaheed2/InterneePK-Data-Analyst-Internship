@@ -13,3 +13,6 @@ env/
 # OS Files
 .DS_Store
 Thumbs.db
+
+# Ignore trained models
+*.pkl
