@@ -557,7 +557,7 @@ This section analyzes the distribution of key numerical features in the dataset,
 ## CGPA Distribution Analysis
 
 <p align="center">
-<img src="outputs/figures/15_cgpa_distribution_analysis.png" width="750">
+<img src="outputs/figures/15_cgpa_distribution.png" width="750">
 </p>
 
 This visualization presents the distribution of applicants' CGPA values using a histogram and box plot to examine academic performance and identify potential outliers.
@@ -737,7 +737,7 @@ The Elbow Method was used to estimate the optimal number of clusters by analyzin
 ## Silhouette Analysis
 
 <p align="center">
-<img src="outputs/figures/24_silhouette_analysis.png" width="700">
+<img src="outputs/figures/24_silhouette_score_analysis.png" width="700">
 </p>
 
 Silhouette Analysis evaluates clustering quality by measuring how well each observation fits within its assigned cluster compared to neighbouring clusters.
